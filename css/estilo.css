@@ -4,7 +4,7 @@
 
 body{
 	font-family: 'Raleway', sans-serif;
-    color: rgb(0, 0, 0);
+    color: rgba(0, 0, 0, 0.39);
 	font-size: 2vh;
     word-spacing: none;
     background: url(https://i.scdn.co/image/c0167043de0ff8b28b4d5aa79bd6048a69fb9f43) no-repeat center center fixed;
@@ -191,7 +191,7 @@ html{
 .icon {
 	color: white;
 	text-decoration: none;
-	padding: .7rem;
+	padding: .3rem;
 	display: flex;
 	transition: all .5s;
 }
@@ -273,6 +273,20 @@ html{
     transform: scale(2,2);
     transform-origin: center center;
 }
+
+.carousel-inner img {
+    width: 50%;
+    height: 50%;
+}
+
+h1{ 
+    color: rgb(0, 0, 0);
+    font-size: 8vh;
+    font-family: 'Raleway', sans-serif;
+    margin: 20px;
+}
+
+
 /* CONTACT STYLE*/
 
 .contact{
@@ -282,11 +296,6 @@ html{
     -webkit-background-size: cover;
     -o-background-size: cover;   
 }
-h1{ 
-    color: rgb(0, 0, 0);
-    font-size: 8vh;
-    font-family: 'Raleway', sans-serif;
- }
 
 html,
 body,
@@ -319,9 +328,11 @@ a{
 
 h2{ 
     color: wheat;
-    font-size: 4vh;
+    font-size: 3vh;
     font-family: 'Raleway', sans-serif;
-    }
+    margin: 30px;
+    letter-spacing: 10px;
+}
 td{
     background: rgba(0, 0, 0, 0.212);
     font-size: 2vh;
@@ -331,22 +342,58 @@ td{
     display: flex;
     font-size: 1.7vh;
     font-family:'Raleway', sans-serif;
-    color: whitesmoke;
+    color: rgb(255, 255, 255);
     flex-flow: column;
     flex-basis: inherit;
     justify-content: space-between;
     padding: 10px;
     margin: 10px;
-    border: 1.5px solid black;
+    border: 1.5px solid rgb(0, 0, 0);
     width: 200px;
     align-items: center;
-
-
-    
-
-
-
 }
+
+.musicflex{
+    background: rgba(0, 0, 0, 0.438);
+    width: 80%;
+    height: 500px;
+
+    padding: 100px;
+    margin: 100px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start
+}
+
+.musicftflex{
+    background: rgba(0, 0, 0, 0.438);
+    width: 80%;
+    height: 300px;
+
+    padding: 100px;
+    margin: 100px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vh;
+    color: rgba(0, 0, 0, 0.514);
+}
+
+.flextext{
+    flex: auto;
+    height: 50px;
+    width: 490px;
+}
+
+
     /* VIDEO STYLE*/
 
 .video{
@@ -357,11 +404,11 @@ td{
     -o-background-size: cover;    
 }
 h4{ 
-    color: rgb(255, 166, 0);
-    font-size: 5vh;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: start;
-    margin: 50px;
+    color: wheat;
+    font-size: 3vh;
+    font-family: 'Raleway', sans-serif;
+    margin: 30px;
+    letter-spacing: 10px;
    }
 a{
     text-decoration: none;
@@ -370,9 +417,9 @@ a{
 	}
 
 .albumflex{
-    background: black;
+    background: rgba(0, 0, 0, 0.438);
     width: 80%;
-    height: 330px;
+    height: 500px;
 
     padding: 100px;
     margin: 100px;
@@ -416,7 +463,7 @@ a{
 
 img{
 height: 120vh;
-width: 200vh;
+width: 203.1vh;
     
 }
 
